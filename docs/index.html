@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>YOUR TITLE HERE</title>
   <meta name="description" content="YOUR TITLE HERE" />
-  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24.3 and GitBook 2.6.7" />
 
   <meta property="og:title" content="YOUR TITLE HERE" />
   <meta property="og:type" content="book" />
@@ -24,7 +24,7 @@
 <meta name="author" content="YOUR NAMES HERE" />
 
 
-<meta name="date" content="2020-11-09" />
+<meta name="date" content="2021-11-29" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,9 +32,10 @@
   
   
 
-<link rel="next" href="data-sources.html"/>
-<script src="libs/header-attrs-2.3/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link rel="next" href="data.html"/>
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -50,8 +51,9 @@
 
 
 
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
 
@@ -71,8 +73,30 @@
 <li><a href="./">SHORT TITLE HERE</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
-<li class="chapter" data-level="2" data-path="data-sources.html"><a href="data-sources.html"><i class="fa fa-check"></i><b>2</b> Data sources</a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Target Universities</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#stanford-university"><i class="fa fa-check"></i><b>1.1</b> Stanford University</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="index.html"><a href="index.html#poldrack-lab"><i class="fa fa-check"></i><b>1.1.1</b> <em>Poldrack Lab</em></a></li>
+<li class="chapter" data-level="1.1.2" data-path="index.html"><a href="index.html#social-learning-lab"><i class="fa fa-check"></i><b>1.1.2</b> <em>Social Learning Lab</em></a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#dartmouth-college"><i class="fa fa-check"></i><b>1.2</b> Dartmouth College</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="index.html"><a href="index.html#functional-imaging-and-naturalistic-neuroscience-lab"><i class="fa fa-check"></i><b>1.2.1</b> Functional Imaging and Naturalistic Neuroscience Lab</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#brown-university"><i class="fa fa-check"></i><b>1.3</b> Brown University</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="index.html"><a href="index.html#shenhav-lab"><i class="fa fa-check"></i><b>1.3.1</b> Shenhav Lab</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#university-of-chicago"><i class="fa fa-check"></i><b>1.4</b> University of Chicago</a></li>
+<li class="chapter" data-level="1.5" data-path="index.html"><a href="index.html#cognitive-neuroscience-lab"><i class="fa fa-check"></i><b>1.5</b> Cognitive Neuroscience Lab</a></li>
+<li class="chapter" data-level="1.6" data-path="index.html"><a href="index.html#oxford-university"><i class="fa fa-check"></i><b>1.6</b> Oxford University</a>
+<ul>
+<li class="chapter" data-level="1.6.1" data-path="index.html"><a href="index.html#acclab"><i class="fa fa-check"></i><b>1.6.1</b> ACClab</a></li>
+<li class="chapter" data-level="1.6.2" data-path="index.html"><a href="index.html#brain-cognition-lab"><i class="fa fa-check"></i><b>1.6.2</b> Brain &amp; Cognition Lab</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>2</b> Data</a></li>
 <li class="chapter" data-level="3" data-path="data-transformation.html"><a href="data-transformation.html"><i class="fa fa-check"></i><b>3</b> Data transformation</a></li>
 <li class="chapter" data-level="4" data-path="missing-values.html"><a href="missing-values.html"><i class="fa fa-check"></i><b>4</b> Missing values</a></li>
 <li class="chapter" data-level="5" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>5</b> Results</a></li>
@@ -100,11 +124,203 @@
 <div id="header">
 <h1 class="title">YOUR TITLE HERE</h1>
 <p class="author"><em>YOUR NAMES HERE</em></p>
-<p class="date"><em>2020-11-09</em></p>
+<p class="date"><em>2021-11-29</em></p>
 </div>
-<div id="introduction" class="section level1" number="1">
-<h1><span class="header-section-number">Chapter 1</span> Introduction</h1>
+<div id="target-universities" class="section level1" number="1">
+<h1><span class="header-section-number">Chapter 1</span> Target Universities</h1>
+<div id="stanford-university" class="section level2" number="1.1">
+<h2><span class="header-section-number">1.1</span> Stanford University</h2>
+<div id="poldrack-lab" class="section level3" number="1.1.1">
+<h3><span class="header-section-number">1.1.1</span> <em>Poldrack Lab</em></h3>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-2"></span>
+<img src="PoldrackLab.png" alt="Poldrack Lab" width="442" />
+<p class="caption">
+Figure 1.1: Poldrack Lab
+</p>
+</div>
+<p>Lab Website: <a href="https://poldracklab.stanford.edu/" class="uri">https://poldracklab.stanford.edu/</a></p>
+<p>Principle Investigator: <code>Russell Poldrack</code></p>
+<p>Google Scholar Citation: <code>65008</code></p>
+<p>Post Open Positions: <code>NO</code></p>
+<p>Research Theme: <code>Our lab uses the tools of cognitive neuroscience to understand how decision making, executive control, and learning and memory are implemented in the human brain.</code></p>
+</div>
+<div id="social-learning-lab" class="section level3" number="1.1.2">
+<h3><span class="header-section-number">1.1.2</span> <em>Social Learning Lab</em></h3>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-3"></span>
+<img src="PoldrackLab.png" alt="Social Learning Lab" width="442" />
+<p class="caption">
+Figure 1.2: Social Learning Lab
+</p>
+</div>
+<p>Lab Website: <a href="https://http://sll.stanford.edu/" class="uri">https://http://sll.stanford.edu/</a></p>
+<p>Principle Investigator: <code>Hyowon Gweon</code></p>
+<p>Google Scholar Citation: <code>2811</code></p>
+<p>Post Open Positions: <code>YES</code></p>
+<p>Research Theme: <code>We learn about the world by drawing rich, abstract inductive inferences that go beyond what we can observe, and much of these observations come from behaviors of others around us. By engaging in social learning in diverse contexts, humans learn from others, share their knowledge with others, and even accumulate a body of cultural knowledge over generations.</code></p>
+</div>
+</div>
+<div id="dartmouth-college" class="section level2" number="1.2">
+<h2><span class="header-section-number">1.2</span> Dartmouth College</h2>
+<div id="functional-imaging-and-naturalistic-neuroscience-lab" class="section level3" number="1.2.1">
+<h3><span class="header-section-number">1.2.1</span> Functional Imaging and Naturalistic Neuroscience Lab</h3>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-4"></span>
+<img src="finnlab.png" alt="Finn Lab" width="659" />
+<p class="caption">
+Figure 1.3: Finn Lab
+</p>
+</div>
+<p>Lab Website: <a href="https://thefinnlab.github.io/" class="uri">https://thefinnlab.github.io/</a></p>
+<p>Principle Investigator: <code>Emily S, Finn</code></p>
+<p>Google Scholar Citation: <code>4298</code></p>
+<p>Post Open Positions: <code>YES</code></p>
+<p>Research Theme: <code>What makes us unique? How do our intrinsic traits bias our perceptions and judgments, and how is this reflected in patterns of brain activity? Why might different people arrive at different interpretations of the same experience? My lab’s research combines behavioral, neuroimaging and computational techniques to study individual differences in cognition, especially under rich, dynamic, “naturalistic” stimulation such as watching movies or listening to stories. We are particularly interested in how individuals resolve ambiguity in narratives, and how this process varies with trait- and state-level factors.</code></p>
+<p>Representative Papers:</p>
+<ol style="list-style-type: decimal">
+<li><p>As professor:</p>
+<ul>
+<li>Bandettini, P. A., Huber, L., &amp; Finn, E. S. (2021). Challenges and opportunities of mesoscopic brain mapping with fMRI. Current Opinion in Behavioral Sciences, 40, 189-200.</li>
+<li>Finn, E. S. (2021). Is it time to put rest to rest?. Trends in Cognitive Sciences.</li>
+</ul></li>
+<li><p>As student:</p>
+<ul>
+<li><strong>Finn ES</strong>, Shen X, Scheinost D, Rosenberg MD, Huang J, Chun MM, Papademetris X, Constable RT. (2015) Functional connectome fingerprinting: Identifying individuals using patterns of brain connectivity. Nature Neuroscience, 18: 1664–1671.</li>
+<li>Finn ES, Corlett PR, Chen G, Bandettini PA, Constable RT. (2018). Trait paranoia shapes inter-subject synchrony in brain activity during an ambiguous social narrative. Nature Communications, 9: 2043.</li>
+<li>Finn ES, Huber L, Jangraw DC, Molfese PJ, Bandettini PA. (2019). Layer-dependent activity in human prefrontal cortex during working memory. Nature Neuroscience, 22: 1687–1695.</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="brown-university" class="section level2" number="1.3">
+<h2><span class="header-section-number">1.3</span> Brown University</h2>
+<div id="shenhav-lab" class="section level3" number="1.3.1">
+<h3><span class="header-section-number">1.3.1</span> Shenhav Lab</h3>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-5"></span>
+<img src="shenhavlab.png" alt="Shenhav Lab" width="448" />
+<p class="caption">
+Figure 1.4: Shenhav Lab
+</p>
+</div>
+<p>Lab Website: <a href="https://www.shenhavlab.org/" class="uri">https://www.shenhavlab.org/</a></p>
+<p>Principle Investigator: <code>Amitai Shenhav</code></p>
+<p>Google Scholar Citation: <code>5478</code></p>
+<p>Post Open Positions: <code>YES _(did not say whether should contact in email)_</code></p>
+<p>Research Theme: <code>**Decision-making** research focuses on how we deliberate over costs and benefits of our options (e.g., comparing apples &amp; oranges). **Cognitive control** research focuses on how we exert cognitive effort to overcome our automatic biases (e.g., naming the color a word appears in vs. reading the word itself).</code></p>
+<p>Representative Papers:</p>
+<ol style="list-style-type: decimal">
+<li><p>As professor:</p>
+<ul>
+<li><em>Frömer, R, </em>Lin, H., Dean Wolf, C.K., Inzlicht, M. &amp; Shenhav, A. (2021). Expectations of reward and efficacy guide cognitive control allocation. Nature Communications, 12: 1030.</li>
+<li>Ritz, H., Frömer, R., &amp; Shenhav, A. (2020). Bridging Motor and Cognitive Control: It’s About Time! Trends in Cognitive Sciences, 24(1): 6-8.</li>
+<li>Frömer, R., Dean Wolf, C.K., &amp; Shenhav, A. (2019). Goal congruency dominates reward value in accounting for behavioral and neural correlates of value-based decision-making. Nature Communications, 10(1): 4926.</li>
+</ul></li>
+<li><p>As student:</p>
+<ul>
+<li>Shenhav, A., Botvinick, M.M., &amp; Cohen, J.D. (2016). Dorsal anterior cingulate cortex and the value of control. Nature Neuroscience 19(10): 1286-1291.</li>
+<li>Shenhav, A., Straccia, M.A., Cohen, J.D., &amp; Botvinick, M.M. (2014). Anterior cingulate engagement in a foraging context reflects choice difficulty, not foraging value. Nature Neuroscience 17(9): 1249-1254.</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="university-of-chicago" class="section level2" number="1.4">
+<h2><span class="header-section-number">1.4</span> University of Chicago</h2>
+</div>
+<div id="cognitive-neuroscience-lab" class="section level2" number="1.5">
+<h2><span class="header-section-number">1.5</span> Cognitive Neuroscience Lab</h2>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-6"></span>
+<img src="awhlab.png" alt="Awh Lab" width="415" />
+<p class="caption">
+Figure 1.5: Awh Lab
+</p>
+</div>
+<p>Lab Website: <a href="https://awhvogellab.com/" class="uri">https://awhvogellab.com/</a></p>
+<p>Principle Investigator: <code>Edward Awh</code></p>
+<p>Google Scholar Citation: <code>19158</code></p>
+<p>Post Open Positions: <code>NO</code></p>
+<p>Research Theme: <code>We study the interactions between visual working memory and selective attention using psychophysical and electrophysiological methods.</code></p>
+<p>Representative Papers:</p>
+<ol style="list-style-type: decimal">
+<li><p>As professor:</p>
+<ul>
+<li>Feldmann-Wüstefeld, T., Weinberger, M., &amp; Awh, E. (2021). Spatially guided distractor suppression during visual search. Journal of Neuroscience, 41(14), 3180-3191.</li>
+<li>Foster, J. J., Thyer, W., Wennberg, J. W., &amp; Awh, E. (2021). Covert attention increases the gain of stimulus-evoked population codes. Journal of Neuroscience, 41(8), 1802-1815.</li>
+<li>Sutterer, D. W., Foster, J. J., Adam, K. C., Vogel, E. K., &amp; Awh, E. (2019). Item-specific delay activity demonstrates concurrent storage of multiple active neural representations in working memory. PLoS biology, 17(4), e3000239.</li>
+<li>Foster, J. J., Bsales, E. M., Jaffe, R. J., &amp; Awh, E. (2017). Alpha-band activity reveals spontaneous representations of spatial position in visual working memory. Current Biology, 27(20), 3216-3223.</li>
+<li>Awh, E., Belopolsky, A. V., &amp; Theeuwes, J. (2012). Top-down versus bottom-up attentional control: A failed theoretical dichotomy. Trends in cognitive sciences, 16(8), 437-443.</li>
+</ul></li>
+<li><p>As student:</p>
+<ul>
+<li>Awh, E., &amp; Jonides, J. (2001). Overlapping mechanisms of attention and spatial working memory. Trends in cognitive sciences, 5(3), 119-126.</li>
+<li>Awh, E., Jonides, J., Smith, E. E., Schumacher, E. H., Koeppe, R. A., &amp; Katz, S. (1996). Dissociation of storage and rehearsal in verbal working memory: Evidence from positron emission tomography. Psychological Science, 7(1), 25-31.</li>
+<li>Awh, E., Belopolsky, A. V., &amp; Theeuwes, J. (2012). Top-down versus bottom-up attentional control: A failed theoretical dichotomy. Trends in cognitive sciences, 16(8), 437-443.</li>
+</ul></li>
+</ol>
+</div>
+<div id="oxford-university" class="section level2" number="1.6">
+<h2><span class="header-section-number">1.6</span> Oxford University</h2>
+<div id="acclab" class="section level3" number="1.6.1">
+<h3><span class="header-section-number">1.6.1</span> ACClab</h3>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-7"></span>
+<img src="acclab.png" alt="ACClab" width="422" />
+<p class="caption">
+Figure 1.6: ACClab
+</p>
+</div>
+<p>Lab Website: <a href="https://www.oxacclab.org/" class="uri">https://www.oxacclab.org/</a></p>
+<p>Principle Investigator: <code>Nick Yeung</code></p>
+<p>Google Scholar Citation: <code>14887</code></p>
+<p>Post Open Positions: <code>YES _(encourage contact)_</code></p>
+<p>Research Theme: <code>The broad question addressed in our research is how coherent thought and action emerge from processing in the brain. While much is now known about specific aspects of brain function—how we perceive the world, attend to particular details, remember facts and events, make decisions, etc.—much less is known about how these different functions become organised so that, at any given time, we can focus our attention on a particular task (or tasks) based on our current goals and intentions. Our research investigates the mechanisms responsible for imposing this organisation on our thoughts and actions. A key component of our research is the development of computational models of attention and control processes. We use these models to inform the design and interpretation of our empirical work that combines behavioural, functional neuroimaging (fMRI), and scalp electrophysiological (EEG) methods.</code></p>
+<p>Representative Papers:</p>
+<ol style="list-style-type: decimal">
+<li><p>As professor:</p>
+<ul>
+<li>Frömer, R., Nassar, M. R., Bruckner, R., Stürmer, B., Sommer, W., &amp; Yeung, N. (2021). Response-based outcome predictions and confidence regulate feedback processing and learning. Elife, 10, e62825.</li>
+<li>Desender, K., Murphy, P., Boldt, A., Verguts, T., &amp; Yeung, N. (2019). A postdecisional neural marker of confidence predicts Information-Seeking in Decision-Making. Journal of Neuroscience, 39(17), 3309-3319.</li>
+<li>Sutterer, D. W., Foster, J. J., Adam, K. C., Vogel, E. K., &amp; Awh, E. (2019). Item-specific delay activity demonstrates concurrent storage of multiple active neural representations in working memory. PLoS biology, 17(4), e3000239.</li>
+<li>Desender, K., Boldt, A., &amp; Yeung, N. (2018). Subjective confidence predicts information seeking in decision making. Psychological science, 29(5), 761-778.</li>
+<li>Boldt, A., &amp; Yeung, N. (2015). Shared neural markers of decision confidence and error detection. Journal of Neuroscience, 35(8), 3478-3484.</li>
+</ul></li>
+<li><p>As student:</p>
+<ul>
+<li>Yeung, N., Botvinick, M. M., &amp; Cohen, J. D. (2004). The neural basis of error detection: conflict monitoring and the error-related negativity. Psychological review, 111(4), 931.</li>
+<li>Yeung, N., &amp; Sanfey, A. G. (2004). Independent coding of reward magnitude and valence in the human brain. Journal of Neuroscience, 24(28), 6258-6264.</li>
+<li>Yeung, N., Holroyd, C. B., &amp; Cohen, J. D. (2005). ERP correlates of feedback and reward processing in the presence and absence of response choice. Cerebral cortex, 15(5), 535-544.</li>
+</ul></li>
+</ol>
+</div>
+<div id="brain-cognition-lab" class="section level3" number="1.6.2">
+<h3><span class="header-section-number">1.6.2</span> Brain &amp; Cognition Lab</h3>
+<div class="figure"><span style="display:block;" id="fig:unnamed-chunk-8"></span>
+<img src="nobrelab.png" alt="Nobre Lab" width="320" />
+<p class="caption">
+Figure 1.7: Nobre Lab
+</p>
+</div>
+<p>Lab Website: <a href="https://www.brainandcognition.org/" class="uri">https://www.brainandcognition.org/</a></p>
+<p>Principle Investigator: <code>Kia Nobre</code></p>
+<p>Google Scholar Citation: <code>32459</code></p>
+<p>Post Open Positions: <code>YES _(encourage contact)_</code></p>
+<p>Research Theme: <code>Human behaviour is uniquely flexible. Our brains bring forth memories from moments to years ago, taking into account what matters in a given context, to guide our perception, choice, action, and learning. All of this happens in the flux of our ongoing interaction with the external environment and internal mindscape. In the lab, we are fascinated by this proactive and dynamic process of focus at the core of all cognition. We carry out many lines of research, but they share the broad aim of investigating the workings of mental focus and in understanding its role in psychological and brain disorders.</code></p>
+<p>Representative Papers:</p>
+<ol style="list-style-type: decimal">
+<li><p>Recent publication:</p>
+<ul>
+<li>van Ede, F., Deden, J., &amp; Nobre, A. C. (2021). Looking ahead in working memory to guide sequential behaviour. Current Biology, 31(12), R779-R780.</li>
+<li>Draschkow, D., Kallmayer, M., &amp; Nobre, A. C. (2021). When natural behavior engages working memory. Current Biology, 31(4), 869-874.</li>
+<li>Van Ede, F., Board, A. G., &amp; Nobre, A. C. (2020). Goal-directed and stimulus-driven selection of internal representations. Proceedings of the National Academy of Sciences, 117(39), 24590-24598.</li>
+<li>Bauer, A. K. R., Debener, S., &amp; Nobre, A. C. (2020). Synchronisation of neural oscillations and cross-modal influences. Trends in cognitive sciences, 24(6), 481-495.</li>
+<li>Van Ede, F., Chekroud, S. R., &amp; Nobre, A. C. (2019). Human gaze tracks attentional focusing in memorized visual space. Nature human behaviour, 3(5), 462-470.</li>
+</ul></li>
+<li><p>Early period:</p>
+<ul>
+<li>Nobre, A. C., Allison, T., &amp; McCarthy, G. (1994). Word recognition in the human inferior temporal lobe. Nature, 372(6503), 260-263.</li>
+<li>Nobre, A. C., Gitelman, D. R., Dias, E. C., &amp; Mesulam, M. M. (2000). Covert visual spatial orienting and saccades: overlapping neural systems. Neuroimage, 11(3), 210-216.</li>
+<li>Nobre, A. C., Coull, J. T., Frith, C. D., &amp; Mesulam, M. M. (1999). Orbitofrontal cortex is activated during breaches of expectation in tasks of visual attention. Nature neuroscience, 2(1), 11-12.</li>
+</ul></li>
+</ol>
 
+</div>
+</div>
 </div>
             </section>
 
@@ -112,11 +328,10 @@
         </div>
       </div>
 
-<a href="data-sources.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="data.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -135,6 +350,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -155,6 +371,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }
