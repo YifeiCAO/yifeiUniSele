@@ -5,7 +5,7 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
 
-# Target Universities
+# Labs focusing on neuroimaging techniques
 
 ## Stanford University 
 
@@ -24,20 +24,6 @@ Post Open Positions: `NO`
 
 Research Theme: `Our lab uses the tools of cognitive neuroscience to understand how decision making, executive control, and learning and memory are implemented in the human brain.`
 
-### _Social Learning Lab_
-
-```{r, fig.cap="Social Learning Lab", echo=FALSE}
-knitr::include_graphics("PoldrackLab.png")
-```
-Lab Website: <https://http://sll.stanford.edu/>
-
-Principle Investigator: `Hyowon Gweon`
-
-Google Scholar Citation: `2811`
-
-Post Open Positions: `YES`
-
-Research Theme: `We learn about the world by drawing rich, abstract inductive inferences that go beyond what we can observe, and much of these observations come from behaviors of others around us. By engaging in social learning in diverse contexts, humans learn from others, share their knowledge with others, and even accumulate a body of cultural knowledge over generations.`
 
 ## Dartmouth College
 
@@ -68,42 +54,11 @@ Representative Papers:
     - **Finn ES**, Shen X, Scheinost D, Rosenberg MD, Huang J, Chun MM, Papademetris X, Constable RT. (2015) Functional connectome fingerprinting: Identifying individuals using patterns of brain connectivity. Nature Neuroscience, 18: 1664–1671.
     - Finn ES, Corlett PR, Chen G, Bandettini PA, Constable RT. (2018). Trait paranoia shapes inter-subject synchrony in brain activity during an ambiguous social narrative. Nature Communications, 9: 2043.
     - Finn ES, Huber L, Jangraw DC, Molfese PJ, Bandettini PA. (2019). Layer-dependent activity in human prefrontal cortex during working memory. Nature Neuroscience, 22: 1687–1695.
-    
 
-    
-## Brown University
-
-### Shenhav Lab
-
-```{r, fig.cap="Shenhav Lab", echo=FALSE}
-knitr::include_graphics("shenhavlab.png")
-```
-Lab Website: <https://www.shenhavlab.org/>
-
-Principle Investigator: `Amitai Shenhav`
-
-Google Scholar Citation: `5478`
-
-Post Open Positions: `YES _(did not say whether should contact in email)_`
-
-Research Theme: `**Decision-making** research focuses on how we deliberate over costs and benefits of our options (e.g., comparing apples & oranges). **Cognitive control** research focuses on how we exert cognitive effort to overcome our automatic biases (e.g., naming the color a word appears in vs. reading the word itself).`
-
-Representative Papers:
-
-1. As professor:
-
-    - *Frömer, R, *Lin, H., Dean Wolf, C.K., Inzlicht, M. & Shenhav, A. (2021). Expectations of reward and efficacy guide cognitive control allocation. Nature Communications, 12: 1030.
-    - Ritz, H., Frömer, R., & Shenhav, A. (2020). Bridging Motor and Cognitive Control: It’s About Time! Trends in Cognitive Sciences, 24(1): 6-8.
-    - Frömer, R., Dean Wolf, C.K., & Shenhav, A. (2019). Goal congruency dominates reward value in accounting for behavioral and neural correlates of value-based decision-making. Nature Communications, 10(1): 4926.
-
-1. As student:
-
-    - Shenhav, A., Botvinick, M.M., & Cohen, J.D. (2016). Dorsal anterior cingulate cortex and the value of control. Nature Neuroscience 19(10): 1286-1291.
-    - Shenhav, A., Straccia, M.A., Cohen, J.D., & Botvinick, M.M. (2014). Anterior cingulate engagement in a foraging context reflects choice difficulty, not foraging value. Nature Neuroscience 17(9): 1249-1254.
 
 ## University of Chicago
 
-## Cognitive Neuroscience Lab
+### Cognitive Neuroscience Lab
 
 ```{r, fig.cap="Awh Lab", echo=FALSE}
 knitr::include_graphics("awhlab.png")
@@ -135,37 +90,6 @@ Representative Papers:
     - Awh, E., Belopolsky, A. V., & Theeuwes, J. (2012). Top-down versus bottom-up attentional control: A failed theoretical dichotomy. Trends in cognitive sciences, 16(8), 437-443.
     
 ## Oxford University
-
-### ACClab
-
-```{r, fig.cap="ACClab", echo=FALSE}
-knitr::include_graphics("acclab.png")
-```
-Lab Website: <https://www.oxacclab.org/>
-
-Principle Investigator: `Nick Yeung`
-
-Google Scholar Citation: `14887`
-
-Post Open Positions: `YES _(encourage contact)_`
-
-Research Theme: `The broad question addressed in our research is how coherent thought and action emerge from processing in the brain. While much is now known about specific aspects of brain function—how we perceive the world, attend to particular details, remember facts and events, make decisions, etc.—much less is known about how these different functions become organised so that, at any given time, we can focus our attention on a particular task (or tasks) based on our current goals and intentions. Our research investigates the mechanisms responsible for imposing this organisation on our thoughts and actions. A key component of our research is the development of computational models of attention and control processes. We use these models to inform the design and interpretation of our empirical work that combines behavioural, functional neuroimaging (fMRI), and scalp electrophysiological (EEG) methods.`
-
-Representative Papers:
-
-1. As professor:
-
-    - Frömer, R., Nassar, M. R., Bruckner, R., Stürmer, B., Sommer, W., & Yeung, N. (2021). Response-based outcome predictions and confidence regulate feedback processing and learning. Elife, 10, e62825.
-    - Desender, K., Murphy, P., Boldt, A., Verguts, T., & Yeung, N. (2019). A postdecisional neural marker of confidence predicts Information-Seeking in Decision-Making. Journal of Neuroscience, 39(17), 3309-3319.
-    - Sutterer, D. W., Foster, J. J., Adam, K. C., Vogel, E. K., & Awh, E. (2019). Item-specific delay activity demonstrates concurrent storage of multiple active neural representations in working memory. PLoS biology, 17(4), e3000239.
-    - Desender, K., Boldt, A., & Yeung, N. (2018). Subjective confidence predicts information seeking in decision making. Psychological science, 29(5), 761-778.
-    - Boldt, A., & Yeung, N. (2015). Shared neural markers of decision confidence and error detection. Journal of Neuroscience, 35(8), 3478-3484.
-    
-1. As student:
-
-    - Yeung, N., Botvinick, M. M., & Cohen, J. D. (2004). The neural basis of error detection: conflict monitoring and the error-related negativity. Psychological review, 111(4), 931.
-    - Yeung, N., & Sanfey, A. G. (2004). Independent coding of reward magnitude and valence in the human brain. Journal of Neuroscience, 24(28), 6258-6264.
-    - Yeung, N., Holroyd, C. B., & Cohen, J. D. (2005). ERP correlates of feedback and reward processing in the presence and absence of response choice. Cerebral cortex, 15(5), 535-544.
     
 ### Brain & Cognition Lab
 
@@ -198,3 +122,70 @@ Representative Papers:
     - Nobre, A. C., Gitelman, D. R., Dias, E. C., & Mesulam, M. M. (2000). Covert visual spatial orienting and saccades: overlapping neural systems. Neuroimage, 11(3), 210-216.
     - Nobre, A. C., Coull, J. T., Frith, C. D., & Mesulam, M. M. (1999). Orbitofrontal cortex is activated during breaches of expectation in tasks of visual attention. Nature neuroscience, 2(1), 11-12.
 
+## Donders Institute (Netherland)
+
+### Lifespan Cognitive Dynamics Lab
+
+```{r, fig.cap="kievit Lab", echo=FALSE}
+knitr::include_graphics("kievitlab.png")
+```
+Lab Website: <https://www.rogierkievit.com/>
+
+Principle Investigator: `Rogier Kievit`
+
+Google Scholar Citation: `6534`
+
+Post Open Positions: `YES (encourage contact)`
+
+Research Theme: `A striking feature of individual differences in cognitive abilities is that they are universally positively correlated – a phenomenon known as the positive manifold. The traditional method of analysis yields a g-factor, a single summary metric with considerable predictive power. However, this summary metric ignores the developmental origin of the positive manifold. Multiple competing accounts of the origin of the g factor have been proposed, but in the absence of tailored longitudinal data these models cannot be empirically distinguished. One such model, the mutualism model, proposes that positive interactions between cognitive domains facilitate mutual growth. In three different projects we have shown that this model can help explain cognitive development in childhood. We are currently working on various extensions of these findings.`
+
+Representative Papers:
+
+1. Recent publication:
+
+    - de Mooij, S. M., Henson, R. N., Waldorp, L. J., & Kievit, R. A. (2018). Age differentiation within gray matter, white matter, and between memory and white matter in an adult life span cohort. Journal of Neuroscience, 38(25), 5826-5836.
+    - Simpson-Kent, I. L., Fuhrmann, D., Bathelt, J., Achterberg, J., Borgeest, G. S., & Kievit, R. A. (2020). Neurocognitive reorganization between crystallized intelligence, fluid intelligence and white matter microstructure in two age-heterogeneous developmental cohorts. Developmental cognitive neuroscience, 41, 100743.
+    - Liu, K. Y., Kievit, R. A., Tsvetanov, K. A., Betts, M. J., Düzel, E., Rowe, J. B., ... & Hämmerer, D. (2020). Noradrenergic-dependent functions are associated with age-related locus coeruleus signal intensity differences. Nature communications, 11(1), 1-9.
+    - Kievit, R. A., Brandmaier, A. M., Ziegler, G., van Harmelen, A. L., de Mooij, S. M., Moutoussis, M., ... & NSPN Consortium. (2018). Developmental cognitive neuroscience using latent change score models: A tutorial and applications. Developmental cognitive neuroscience, 33, 99-117.
+    
+1. Early period:
+
+    - Kievit, R. A., Davis, S. W., Mitchell, D. J., Taylor, J. R., Duncan, J., & Henson, R. N. (2014). Distinct aspects of frontal lobe structure mediate age-related differences in fluid intelligence and multitasking. Nature communications, 5(1), 1-10.
+    - Kievit, R., Frankenhuis, W. E., Waldorp, L., & Borsboom, D. (2013). Simpson's paradox in psychological science: a practical guide. Frontiers in psychology, 4, 513.
+    - Kriegeskorte, N., & Kievit, R. A. (2013). Representational geometry: integrating cognition, computation, and the brain. Trends in cognitive sciences, 17(8), 401-412.
+    
+## Duke University
+
+### Egner Lab
+
+```{r, fig.cap="Egner Lab", echo=FALSE}
+knitr::include_graphics("egnerlab.png")
+```
+Lab Website: <http://www.egnerlab.org/>
+
+Principle Investigator: `Tobias Egner`
+
+Google Scholar Citation: `18933`
+
+Post Open Positions: `NO`
+
+Research Theme: `One core interest of our lab concerns how the human brain exploits prior experience and current context to predict forthcoming stimuli in adaptive visual cognition. Another major line of research investigates how we strategically adapt our cognitive processing strategies to changing circumstances, known as the study of cognitive control.`
+
+Representative Papers:
+
+1. Recent publication:
+
+    - Yin, S., Bi, T., Chen, A., & Egner, T. (2021). Ventromedial prefrontal cortex drives the prioritization of self-associated stimuli in working memory. Journal of Neuroscience, 41(9), 2012-2023.
+    - Braem, S., Bugg, J. M., Schmidt, J. R., Crump, M. J., Weissman, D. H., Notebaert, W., & Egner, T. (2019). Measuring adaptive control in conflict tasks. Trends in Cognitive Sciences, 23(9), 769-783. microstructure in two age-heterogeneous developmental cohorts. Developmental cognitive neuroscience, 41, 100743.
+    - Chiu, Y. C., & Egner, T. (2019). Cortical and subcortical contributions to context-control learning. Neuroscience & Biobehavioral Reviews, 99, 33-41.
+    - Jiang, J., Wagner, A. D., & Egner, T. (2018). Integrated externally and internally generated task predictions jointly guide cognitive control in prefrontal cortex. ELife, 7, e39497.
+    - Kiyonaga, A., & Egner, T. (2016). Center-surround inhibition in working memory. Current Biology, 26(1), 64-68.
+    - Jiang, J., Beck, J., Heller, K., & Egner, T. (2015). An insula-frontostriatal network mediates flexible cognitive control by adaptively predicting changing control demands. Nature Communications, 6(1), 1-11.
+    
+1. Early period:
+
+    - Egner, T., & Hirsch, J. (2005). The neural correlates and functional integration of cognitive control in a Stroop task. Neuroimage, 24(2), 539-547.e mediate age-related differences in fluid intelligence and multitasking. Nature communications, 5(1), 1-10.
+    - Egner, T. (2007). Congruency sequence effects and cognitive control. Cognitive, Affective, & Behavioral Neuroscience, 7(4), 380-390.
+    - Egner, T., & Hirsch, J. (2005). Cognitive control mechanisms resolve conflict through cortical amplification of task-relevant information. Nature neuroscience, 8(12), 1784-1790.
+    - Egner, T. (2008). Multiple conflict-driven control mechanisms in the human brain. Trends in cognitive sciences, 12(10), 374-380.
+    - Egner, T., Jamieson, G., & Gruzelier, J. (2005). Hypnosis decouples cognitive control from conflict monitoring processes of the frontal lobe. Neuroimage, 27(4), 969-978.
