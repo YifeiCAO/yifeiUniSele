@@ -7,7 +7,7 @@
 ```{r, fig.cap="Social Learning Lab", echo=FALSE}
 knitr::include_graphics("sociallearninglab.png")
 ```
-Lab Website: <https://http://sll.stanford.edu/>
+Lab Website: <http://sll.stanford.edu/>
 
 Principle Investigator: `Hyowon Gweon`
 
@@ -112,3 +112,42 @@ Representative Papers:
     - Summerfield, C., Trittschuh, E. H., Monti, J. M., Mesulam, M. M., & Egner, T. (2008). Neural repetition suppression reflects fulfilled perceptual expectations. Nature neuroscience, 11(9), 1004-1006.
     - Summerfield, C., Egner, T., Greene, M., Koechlin, E., Mangels, J., & Hirsch, J. (2006). Predictive codes for forthcoming perception in the frontal cortex. Science, 314(5803), 1311-1314.
     
+## ÉCOLE NORMALE SUPÉRIEURE (巴黎高等师范)
+
+### The HUman Reinforcement Learning team
+
+```{r, fig.cap="Palminteri Lab", echo=FALSE}
+knitr::include_graphics("Palminterilab.png")
+```
+Lab Website: <https://sites.google.com/site/stefanopalminteri/hrl-team>
+
+Principle Investigator: `Stefano Palminteri`
+
+Google Scholar Citation: `2539`
+
+Post Open Positions: `YES` [Website for offers](https://lnc2.dec.ens.fr/en/jobs)
+
+Research Theme: `My goal is understanding how humans learn to make decisions at the behavioral, computational and neural levels. I am mainly (but not only!) interested in situations when decisions are based on past experience (a.k.a. reinforcement learning) . My modus operandi consists in modifying reinforcement learning models, so that they can account for human behavior (in other terms, although my work involves  building and testing formal models, I still define myself as an experimentalist). In the last few years I mainly investigated two  research hypotheses concerning human reinforcement learning: 1. value is learned in a relative scale 2. value is learned in a biased manner  In addition to extending the "relative value" and the "learning bias" frameworks, new lines of research in my team investigate  social learning and the experience/description gap.  `
+
+Representative Papers:
+
+1. As professor:
+
+    - Palminteri, S., & Lebreton, M. (2021). Context-dependent outcome encoding in human reinforcement learning. Current Opinion in Behavioral Science.
+    - Bavard, S., Rustichini, A., & Palminteri, S. (2021). Two sides of the same coin: Beneficial and detrimental consequences of range adaptation in human reinforcement learning. Science Advances, 7(14), eabe0340
+    - Najar, A., Bonnet, E., Bahrami, B., & Palminteri, S. (2020). The actions of others act as a pseudo-reward to drive imitation in the context of social reinforcement learning. PLoS biology, 18(12), e3001028.
+    - Castañón, S. H., Moran, R., Ding, J., Egner, T., Bang, D., & Summerfield, C. (2019). Human noise blindness drives suboptimal cognitive inference. Nature communications, 10(1), 1-11.
+    - Chambon, V., Théro, H., Vidal, M., Vandendriessche, H., Haggard, P., & Palminteri, S. (2020). Information about action outcomes differentially affects learning from self-determined versus imposed choices. Nature Human Behaviour, 4(10), 1067-1079.
+    - Lebreton, M., Bavard, S., Daunizeau, J., & Palminteri, S. (2019). Assessing inter-individual differences with task-related functional neuroimaging. Nature Human Behaviour, 3(9), 897-905.
+    - Lefebvre, G., Nioche, A., Bourgeois-Gironde, S., & Palminteri, S. (2018). Contrasting temporal difference and opportunity cost reinforcement learning in an empirical money-emergence paradigm. Proceedings of the National Academy of Sciences, 115(49), E11446-E11454.
+    - Bavard, S., Lebreton, M., Khamassi, M., Coricelli, G., & Palminteri, S. (2018). Reference-point centering and range-adaptation enhance human reinforcement learning at the cost of irrational preferences. Nature communications, 9(1), 1-12.
+    
+1. As student:
+
+    - Palminteri, S., Lebreton, M., Worbe, Y., Grabli, D., Hartmann, A., & Pessiglione, M. (2009). Pharmacological modulation of subliminal learning in Parkinson's and Tourette's syndromes. Proceedings of the National Academy of Sciences, 106(45), 19179-19184.
+    - Palminteri, S., Boraud, T., Lafargue, G., Dubois, B., & Pessiglione, M. (2009). Brain hemispheres selectively track the expected value of contralateral options. Journal of Neuroscience, 29(43), 13465-13472.
+    - Palminteri, S., Lebreton, M., Worbe, Y., Hartmann, A., Lehéricy, S., Vidailhet, M., ... & Pessiglione, M. (2011). Dopamine-dependent reinforcement of motor skill learning: evidence from Gilles de la Tourette syndrome. Brain, 134(8), 2287-2301.
+    - Palminteri, S., Clair, A. H., Mallet, L., & Pessiglione, M. (2012). Similar improvement of reward and punishment learning by serotonin reuptake inhibitors in obsessive-compulsive disorder. Biological psychiatry, 72(3), 244-250.
+    - Palminteri, S., Justo, D., Jauffret, C., Pavlicek, B., Dauta, A., Delmaire, C., ... & Pessiglione, M. (2012). Critical roles for anterior insula and dorsal striatum in punishment-based avoidance learning. Neuron, 76(5), 998-1009.
+    - Palminteri, S., Khamassi, M., Joffily, M., & Coricelli, G. (2015). Contextual modulation of value signals in reward and punishment learning. Nature communications, 6(1), 1-14.
+    - Palminteri, S., Kilford, E. J., Coricelli, G., & Blakemore, S. J. (2016). The computational development of reinforcement learning during adolescence. PLoS computational biology, 12(6), e1004953.

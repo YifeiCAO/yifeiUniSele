@@ -5,7 +5,42 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
 
-# Labs focusing on neuroimaging techniques
+# Labs using neuroimaging techniques
+
+## MIT McGovern Institute
+
+### Gabrieli Lab
+
+```{r, fig.cap="Gabrieli Lab", echo=FALSE}
+knitr::include_graphics("gabrielilab.png")
+```
+Lab Website: <https://gablab.mit.edu/>
+
+Principle Investigator: `John Gabrieli`
+
+Google Scholar Citation: `89516`
+
+Post Open Positions: `No (but encourage contacting)`
+
+Research Theme: `John Gabrieli’s goal is to understand the organization of memory, thought, and emotion in the human brain, and to use that understanding to help people live happier, more productive lives. By combining brain imaging with behavioral tests, he studies the neural basis of these abilities in human subjects. One important research theme is to understand the neural basis of learning in children and to identify ways that neuroscience could help to improve learning in the classroom. In collaboration with clinical colleagues, Gabrieli also seeks to use brain imaging to better understand, diagnose, and select treatments for neurological and psychiatric diseases.`
+
+Representative Papers:
+
+1. Recent publications:
+
+    - Rozenkrantz, L., D’Mello, A. M., & Gabrieli, J. D. (2021). Enhanced rationality in autism spectrum disorder. Trends in cognitive sciences.
+    - Romeo, R. R., Segaran, J., Leonard, J. A., Robinson, S. T., West, M. R., Mackey, A. P., ... & Gabrieli, J. D. (2018). Language exposure relates to structural neural connectivity in childhood. Journal of Neuroscience, 38(36), 7870-7877.
+    - Romeo, R. R., Christodoulou, J. A., Halverson, K. K., Murtagh, J., Cyr, A. B., Schimmel, C., ... & Gabrieli, J. D. (2018). Socioeconomic status and reading disability: Neuroanatomy and plasticity in response to intervention. Cerebral Cortex, 28(7), 2297-2312.
+
+1. Early publications:
+
+    - Ochsner, K. N., Bunge, S. A., Gross, J. J., & Gabrieli, J. D. (2002). Rethinking feelings: an FMRI study of the cognitive regulation of emotion. Journal of cognitive neuroscience, 14(8), 1215-1229.
+    - Hedden, T., & Gabrieli, J. D. (2004). Insights into the ageing mind: a view from cognitive neuroscience. Nature reviews neuroscience, 5(2), 87-96.
+    - Poldrack, R. A., Wagner, A. D., Prull, M. W., Desmond, J. E., Glover, G. H., & Gabrieli, J. D. (1999). Functional specialization for semantic and phonological processing in the left inferior prefrontal cortex. Neuroimage, 10(1), 15-35.
+    - Bunge, S. A., Dudukovic, N. M., Thomason, M. E., Vaidya, C. J., & Gabrieli, J. D. (2002). Immature frontal lobe contributions to cognitive control in children: evidence from fMRI. Neuron, 33(2), 301-311.
+    - Brewer, J. B., Zhao, Z., Desmond, J. E., Glover, G. H., & Gabrieli, J. D. (1998). Making memories: brain activity that predicts how well visual experience will be remembered. Science, 281(5380), 1185-1187.
+    - Anderson, M. C., Ochsner, K. N., Kuhl, B., Cooper, J., Robertson, E., Gabrieli, S. W., ... & Gabrieli, J. D. (2004). Neural systems underlying the suppression of unwanted memories. Science, 303(5655), 232-235.
+
 
 ## Stanford University 
 
@@ -189,3 +224,111 @@ Representative Papers:
     - Egner, T., & Hirsch, J. (2005). Cognitive control mechanisms resolve conflict through cortical amplification of task-relevant information. Nature neuroscience, 8(12), 1784-1790.
     - Egner, T. (2008). Multiple conflict-driven control mechanisms in the human brain. Trends in cognitive sciences, 12(10), 374-380.
     - Egner, T., Jamieson, G., & Gruzelier, J. (2005). Hypnosis decouples cognitive control from conflict monitoring processes of the frontal lobe. Neuroimage, 27(4), 969-978.
+    
+## University of Pennsylvania
+
+### The Changing Brain Lab
+
+```{r, fig.cap="Mackey Lab", echo=FALSE}
+knitr::include_graphics("mackeylab.png")
+```
+Lab Website: <http://www.allysonmackey.com/>
+
+Principle Investigator: `Allyson Mackey`
+
+Google Scholar Citation: `1769`
+
+Post Open Positions: `NO`
+
+Research Theme: `We study how the brain changes as people grow up and learn new things. We are interested in basic mechanisms of brain plasticity, as well as in developing new strategies to support optimal development and learning.`
+
+Representative Papers:
+
+1. Recent publication:
+
+    - McDermott, C. L., Hilton, K., Park, A. T., Tooley, U. A., Boroshok, A. L., Mupparapu, M., ... & Mackey, A. P. (2021). Early life stress is associated with earlier emergence of permanent molars. Proceedings of the National Academy of Sciences, 118(24).
+    - Tooley, U. A., Bassett, D. S., & Mackey, A. P. (2021). Environmental influences on the pace of brain development. Nature Reviews Neuroscience, 22(6), 372-384.
+    - Leonard, J. A., Duckworth, A. L., Schulz, L. E., & Mackey, A. P. (2021). Leveraging cognitive science to foster children’s persistence. Trends in Cognitive Sciences.
+    - Park, A. T., Tooley, U. A., Leonard, J. A., Boroshok, A. L., McDermott, C. L., Tisdall, M. D., & Mackey, A. P. (2021). Early childhood stress is associated with blunted development of ventral tegmental area functional connectivity. Developmental cognitive neuroscience, 47, 100909.
+    - Leonard, J. A., Martinez, D. N., Dashineau, S. C., Park, A. T., & Mackey, A. P. (2021). Children persist less when adults take over. Child Development.
+    - Leonard, J. A., Romeo, R. R., Park, A. T., Takada, M. E., Robinson, S. T., Grotzinger, H., ... & Mackey, A. P. (2019). Associations between cortical thickness and reasoning differ by socioeconomic status in development. Developmental cognitive neuroscience, 36, 100641.
+    
+1. Early period:
+
+    - Mackey, A. P., Hill, S. S., Stone, S. I., & Bunge, S. A. (2011). Differential effects of reasoning and speed training in children. Developmental science, 14(3), 582-590.
+    - Mackey, A. P., Singley, A. T. M., & Bunge, S. A. (2013). Intensive reasoning training alters patterns of brain connectivity at rest. Journal of Neuroscience, 33(11), 4796-4803.
+    - Mackey, A. P., Finn, A. S., Leonard, J. A., Jacoby-Senghor, D. S., West, M. R., Gabrieli, C. F., & Gabrieli, J. D. (2015). Neuroanatomical correlates of the income-achievement gap. Psychological science, 26(6), 925-933.
+    
+## University of California, Berkeley
+
+### Bunge Lab _Building Blocks of Cognition_
+
+```{r, fig.cap="Bunge Lab", echo=FALSE}
+knitr::include_graphics("bungelab.png")
+```
+Lab Website: <http://bungelab.berkeley.edu/>
+
+Principle Investigator: `Silva Bunge`
+
+Google Scholar Citation: `19019`
+
+Post Open Positions: `YES (encourage contact)`
+
+Research Theme: `I.Components of higher cognition, In our research involving healthy young adults, we examine various cognitive processes that underlie complex human behaviors, like goal-directed behavior, learning and memory, and reasoning. II.Development and plasticity of higher cognition, In our research involving children and adolescents, we study how and why the high-level cognitive abilities outlined above change over development, how they are shaped by experiences such as education and home environment, and why some individuals develop stronger cognitive skills than others.`
+
+Representative Papers:
+
+1. Recent publication:
+
+    - Eckstein, M. K., Starr, A., & Bunge, S. A. (2019). How the inference of hierarchical rules unfolds over time. Cognition, 185, 151-162.
+    - Whitaker, K. J., Vendetti, M. S., Wendelken, C., & Bunge, S. A. (2018). Neuroscientific insights into the development of analogical reasoning. Developmental science, 21(2), e12531.
+    - Wendelken, C., Ferrer, E., Ghetti, S., Bailey, S. K., Cutting, L., & Bunge, S. A. (2017). Frontoparietal structural connectivity in childhood predicts development of functional connectivity and reasoning ability: A large-scale longitudinal investigation. Journal of Neuroscience, 37(35), 8549-8558.
+    - Eckstein, M. K., Guerra-Carrillo, B., Singley, A. T. M., & Bunge, S. A. (2017). Beyond eye gaze: What else can eyetracking reveal about cognition and cognitive development?. Developmental cognitive neuroscience, 25, 69-91.
+    - Wendelken, C., Ferrer, E., Whitaker, K. J., & Bunge, S. A. (2016). Fronto-parietal network reconfiguration supports the development of reasoning ability. Cerebral Cortex, 26(5), 2178-2190.
+    
+1. Early period:
+
+    - Bunge, S. A., Klingberg, T., Jacobsen, R. B., & Gabrieli, J. D. (2000). A resource model of the neural basis of executive working memory. Proceedings of the National Academy of Sciences, 97(7), 3573-3578.
+    - Bunge, S. A., Ochsner, K. N., Desmond, J. E., Glover, G. H., & Gabrieli, J. D. (2001). Prefrontal regions involved in keeping information in and out of mind. Brain, 124(10), 2074-2086.
+    - Bunge, S. A., Dudukovic, N. M., Thomason, M. E., Vaidya, C. J., & Gabrieli, J. D. (2002). Immature frontal lobe contributions to cognitive control in children: evidence from fMRI. Neuron, 33(2), 301-311.
+    - Bunge, S. A., Hazeltine, E., Scanlon, M. D., Rosen, A. C., & Gabrieli, J. D. (2002). Dissociable contributions of prefrontal and parietal cortices to response selection. Neuroimage, 17(3), 1562-1571.
+    - Bunge, S. A., Wendelken, C., Badre, D., & Wagner, A. D. (2005). Analogical reasoning and prefrontal cortex: evidence for separable retrieval and integration mechanisms. Cerebral cortex, 15(3), 239-249.
+    - Crone, E. A., Wendelken, C., Donohue, S. E., & Bunge, S. A. (2006). Neural evidence for dissociable components of task-switching. Cerebral cortex, 16(4), 475-486.
+    - Bunge, S. A., & Wright, S. B. (2007). Neurodevelopmental changes in working memory and cognitive control. Current opinion in neurobiology, 17(2), 243-250.
+    - Crone, E. A., Wendelken, C., Van Leijenhorst, L., Honomichl, R. D., Christoff, K., & Bunge, S. A. (2009). Neurocognitive development of relational reasoning. Developmental science, 12(1), 55-66.
+    - Ghetti, S., DeMaster, D. M., Yonelinas, A. P., & Bunge, S. A. (2010). Developmental differences in medial temporal lobe function during memory encoding. Journal of Neuroscience, 30(28), 9548-9556.
+    
+## Rutgers University
+
+### The Cole Neurocognition Lab
+
+```{r, fig.cap="Cole Lab", echo=FALSE}
+knitr::include_graphics("colelab.png")
+```
+Lab Website: <https://www.colelab.org/#>
+
+Principle Investigator: `Michael W. Cole`
+
+Google Scholar Citation: `10523`
+
+Post Open Positions: `YES (encourage contact)`
+
+Research Theme: `The lab's research focuses on discovering the cognitive and neural mechanisms that make human behavior flexible and goal-directed.We achieve this using a variety of techniques, applying network science, computational modeling, and machine learning approaches to data collected from the human brain (with fMRI, MEG, EEG, diffusion MRI, and behavioral measures) and neural network simulations.Much of this work involves understanding the role of brain connectivity in producing the computations apparent in task-driven brain activity patterns and behavior. This facilitates theoretical understanding of cognitive processes as they emerge from brain network interactions, providing insights into both natural and artificial intelligence.`
+
+Representative Papers:
+
+1. Recent publication:
+
+    - Hearne, L. J., Mill, R. D., Keane, B. P., Repovš, G., Anticevic, A., & Cole, M. W. (2021). Activity flow underlying abnormalities in brain activations and cognition in schizophrenia. Science Advances, 7(29), eabf2513.
+    - Ito, T., Brincat, S. L., Siegel, M., Mill, R. D., He, B. J., Miller, E. K., ... & Cole, M. W. (2020). Task-evoked activity quenches neural correlations and variability across cortical areas. PLoS computational biology, 16(8), e1007983.
+    - Ito, T., Hearne, L., Mill, R., Cocuzza, C., & Cole, M. W. (2020). Discovering the computational relevance of brain network organization. Trends in cognitive sciences, 24(1), 25-38.
+    - Cocuzza, C. V., Ito, T., Schultz, D., Bassett, D. S., & Cole, M. W. (2020). Flexible coordinator and switcher hubs for adaptive task control. Journal of Neuroscience, 40(36), 6949-6968.
+    - Reid, A. T., Headley, D. B., Mill, R. D., Sanchez-Romero, R., Uddin, L. Q., Marinazzo, D., ... & Cole, M. W. (2019). Advancing functional connectivity research from association to causation. Nature neuroscience, 22(11), 1751-1760.
+    - Cole, M. W., Ito, T., Bassett, D. S., & Schultz, D. H. (2016). Activity flow over resting-state networks shapes cognitive task activations. Nature neuroscience, 19(12), 1718-1726.
+    
+1. Early period:
+
+    - Cole, M. W., & Schneider, W. (2007). The cognitive control network: Integrated cortical regions with dissociable functions. Neuroimage, 37(1), 343-360.
+    - Cole, M. W., Bagic, A., Kass, R., & Schneider, W. (2010). Prefrontal dynamics underlying rapid instructed task learning reverse with practice. Journal of Neuroscience, 30(42), 14245-14254.
+    - Cole, M. W., Reynolds, J. R., Power, J. D., Repovs, G., Anticevic, A., & Braver, T. S. (2013). Multi-task connectivity reveals flexible hubs for adaptive task control. Nature neuroscience, 16(9), 1348-1355.
+    - Cole, M. W., Bassett, D. S., Power, J. D., Braver, T. S., & Petersen, S. E. (2014). Intrinsic and task-evoked network architectures of the human brain. Neuron, 83(1), 238-251.
